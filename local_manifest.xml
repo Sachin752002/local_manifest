@@ -5,6 +5,12 @@
                <remote name="SPD"
         fetch="https://github.com/Sachin752002" />
 
+        <remote name="RKSPD"
+                fetch="https://github.com/ArrowOS-Devices" />
+
+        <!-- packages -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="RKSPD" revision="arrow-11.0" />
+
               <!-- Sync trees -->
         <project path="device/asus/X01AD" name="device_asus_X01AD" remote="SPD" revision="A-13" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="SPD" revision="lineage-19.1" />
