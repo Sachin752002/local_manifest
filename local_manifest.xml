@@ -6,7 +6,7 @@
         fetch="https://github.com/Sachin752002" />
 
               <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="xd" revision="PES" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="xd" revision="PES" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="xd" revision="lineage-19.1" />
         <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="xd" revision="PE-12.1" />
 
