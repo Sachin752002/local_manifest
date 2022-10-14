@@ -2,8 +2,11 @@
 
 <manifest>
 
-               <remote name="xd"
-        fetch="https://github.com/Sachin752002" />
+          <remote name="xd"
+          fetch="https://github.com/Sachin752002" />
+
+      <remote name="PET"
+       fetch="https://github.com/ArrowOS-Devices" />
 
         <!-- packages -->
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="PET" revision="arrow-11.0" />
