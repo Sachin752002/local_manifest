@@ -8,8 +8,16 @@
       <remote name="Kingdom"
        fetch="https://github.com/ArrowOS-Devices" />
 
+      <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-12.1.0_r22" />
+
         <!-- packages -->
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="Kingdom" revision="arrow-11.0" />
+
+       <remove-project name="platform/external/libgav1" />
+       <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
 
               <!-- Sync trees -->
         <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Gen" revision="Derp" />
