@@ -2,26 +2,18 @@
 
 <manifest>
 
-          <remote name="Gen"
+          <remote name="ken"
           fetch="https://github.com/Sachin752002" />
 
-      <remote name="Kingdom"
+      <remote name="men"
        fetch="https://github.com/ArrowOS-Devices" />
 
-      <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-12.1.0_r22" />
-
         <!-- packages -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="Kingdom" revision="arrow-11.0" />
-
-       <remove-project name="platform/external/libgav1" />
-       <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="men" revision="arrow-11.0" />
 
               <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="Gen" revision="Derp" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Gen" revision="lineage-19.1" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="Gen" revision="BTL" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="ken" revision="Derp" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="ken" revision="lineage-19.1" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="ken" revision="BTL" />
 
 </manifest>
