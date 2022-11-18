@@ -13,7 +13,7 @@
 
               <!-- Sync trees -->
         <project path="device/asus/X01AD" name="device_asus_X01AD" remote="KT" revision="Test" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="KT" revision="lineage-19.1" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="KT" revision="PE-12.1" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="KT" revision="A-13" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="KT" revision="Tiramisu" />
 
 </manifest>
