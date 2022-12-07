@@ -2,18 +2,18 @@
 
 <manifest>
 
-               <remote name="SPD"
+               <remote name="SD"
         fetch="https://github.com/Sachin752002" />
 
-        <remote name="RKSPD"
-                fetch="https://github.com/ArrowOS-Devices" />
+        <remote name="kd"
+                fetch="https://gitlab.com/Amritorock" />
 
         <!-- packages -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="RKSPD" revision="arrow-11.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="kd" revision="master" depth="1" />
 
               <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="SPD" revision="A-13" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="SPD" revision="lineage-19.1" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="SPD" revision="BTL" />
+        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="SD" revision="terece" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="SD" revision="terece" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="SD" revision="terece" />
 
 </manifest>
