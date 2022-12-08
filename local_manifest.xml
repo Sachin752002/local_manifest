@@ -7,6 +7,9 @@
 
         <remote name="kd"
                 fetch="https://gitlab.com/Amritorock" />
+
+        <remote name="spark"
+                fetch="https://github.com/Spark-Rom" />
      
         <remote name="me-hub"
             fetch="https://github.com/anandhan07/"
@@ -14,10 +17,12 @@
   
         <!-- Remove Projects -->
         <remove-project name="device_qcom_sepolicy-legacy-um" />
- 
+        <remove-project name="external_libvpx" />
+
         <!-- packages -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="kd" revision="master" depth="1" />
-       
+        <project path="external/libvpx" name="external_libvpx" remote="spark" revision="pyro" />
+
         <!-- Sepolicy -->
         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="me-hub" revision="spark-13.0" /> 
 
