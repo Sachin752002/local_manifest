@@ -9,7 +9,7 @@
                 fetch="https://gitlab.com/Amritorock" />
 
         <remove-project name="vendor_aosp" />
-        
+        <project path="vendor/aosp" name="vendor_aosp" remote="PD" revision="trece" />
 
         <!-- packages -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Md" revision="master" depth="1" />
