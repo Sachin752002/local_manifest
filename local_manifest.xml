@@ -8,6 +8,9 @@
         <remote name="Md"
                 fetch="https://gitlab.com/Amritorock" />
 
+        <remove-project name="vendor_aosp" />
+        
+
         <!-- packages -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Md" revision="master" depth="1" />
 
