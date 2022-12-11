@@ -2,21 +2,21 @@
 
 <manifest>
 
-               <remote name="PD"
+               <remote name="VD"
         fetch="https://github.com/Sachin752002" />
 
-        <remote name="Md"
+        <remote name="Ad"
                 fetch="https://gitlab.com/Amritorock" />
 
         <remove-project name="vendor_aosp" />
-        <project path="vendor/aosp" name="vendor_aosp" remote="PD" revision="trece" />
+        <project path="vendor/aosp" name="vendor_aosp" remote="VD" revision="trece" />
 
         <!-- packages -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Md" revision="master" depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Ad" revision="master" depth="1" />
 
               <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="PD" revision="T-B" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="PD" revision="terece" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="PD" revision="terece" />
+        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="VD" revision="Vot-13" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="VD" revision="terece" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="VD" revision="terece" />
 
 </manifest>
