@@ -8,13 +8,14 @@
         <remote name="kd"
                 fetch="https://gitlab.com/Amritorock" />
 
-        <remote name="sk"
+  <!--      <remote name="sk"
                 fetch="https://github.com/Spark-Rom" />
      
         <remote name="me-hub"
             fetch="https://github.com/anandhan07/"
             clone-depth="1" />
-  
+  -->
+
         <!-- Remove Projects 
         <remove-project name="device_qcom_sepolicy-legacy-um" />
         <remove-project name="external_libvpx" /> -->
