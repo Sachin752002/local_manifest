@@ -20,6 +20,9 @@
         <remove-project name="device_qcom_sepolicy-legacy-um" />
         <remove-project name="external_libvpx" /> -->
 
+       <remove-project name="platform_vendor_spark" />
+       <project path="vendor/spark" name="platform_vendor_spark" remote="SD" revision="pyro" />
+
         <!-- packages -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="kd" revision="master" depth="1" />
    <!--     <project path="external/libvpx" name="external_libvpx" remote="sk" revision="pyro" /> -->
