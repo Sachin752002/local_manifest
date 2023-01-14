@@ -5,12 +5,11 @@
           <remote name="KT"
           fetch="https://github.com/Sachin752002" />
 
-  <remote name="PET" 
-    fetch="https://github.com/PixelExperience" /> 
+          <remote name="vd"
+          fetch="https://gitlab.com/Amritorock" />
 
         <!-- packages -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="PET" revision="thirteen" /> 
-
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="vd" revision="master" depth="1" />
               <!-- Sync trees -->
         <project path="device/asus/X01AD" name="device_asus_X01AD" remote="KT" revision="Test" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="KT" revision="A-13" />
