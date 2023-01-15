@@ -2,7 +2,7 @@
 
 <manifest>
 
-          <remote name="KT"
+          <remote name="Kp"
           fetch="https://github.com/Sachin752002" />
 
           <remote name="vd"
@@ -11,8 +11,8 @@
         <!-- packages -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="vd" revision="master" depth="1" />
               <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="KT" revision="Test" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="KT" revision="A-13" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="KT" revision="Tiramisu" />
+        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="Kp" revision="Pet" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="Kp" revision="terece" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="Kp" revision="Pet" />
 
 </manifest>
