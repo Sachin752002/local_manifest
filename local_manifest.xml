@@ -2,18 +2,12 @@
 
 <manifest>
 
-               <remote name="JD"
+               <remote name="ND"
         fetch="https://github.com/Sachin752002" />
 
-        <remote name="Bd"
-                fetch="https://gitlab.com/Amritorock" />
-
-        <!-- packages -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Bd" revision="master" depth="1" />
-
               <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="JD" revision="awaken-T" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="JD" revision="terece" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="JD" revision="terece" />
+        <project path="device/realme/RMX3031" name="device_realme_RMX3031" remote="ND" revision="A12" />
+        <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="ND" revision="twelve" />
+        <project path="kernel/realme/RMX3031" name="kernel_realme_RMX3031" remote="ND" revision="S" />
 
 </manifest>
